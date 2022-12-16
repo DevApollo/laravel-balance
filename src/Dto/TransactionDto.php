@@ -5,7 +5,7 @@ namespace Vuer\LaravelBalance\Dto;
 class TransactionDto
 {
     /**
-     * @var int
+     * @var
      */
     private $amount;
 
@@ -14,7 +14,7 @@ class TransactionDto
      */
     private $type;
 
-    public function __construct(int $amount, int $type = null)
+    public function __construct($amount, int $type = null)
     {
         $this->amount = $amount;
         $this->type = $type;
