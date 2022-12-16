@@ -1,11 +1,11 @@
 {
-    "name": "vuer/laravel-balance",
+    "name": "devapollo/laravel-balance",
     "description": "Laravel package that provide account balance and transactions functionality for Laravel 5",
-    "keywords": ["vuer","laravel","balance","account","accounting"],
+    "keywords": ["vuer","devapollo","laravel","balance","account","accounting"],
     "authors": [
         {
-            "name": "Rafał Szymański",
-            "email": "vuer@post.pl"
+            "name": "Vasil Rashkov",
+            "email": "spam@devapollo.coms"
         }
     ],
     "license": "MIT",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vuer\\LaravelBalance\\": "src/"
+            "Devapollo\\LaravelBalance\\": "src/"
         }
     },
     "minimum-stability": "dev"
